@@ -1,141 +1,70 @@
-<a name="readme-top"></a>
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<br />
-<div align="center">
-  
-  ![bingoctfgogreenlandingpage](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996606/1_kcceab.png)
-  
-<h3 align="center">
-Task Management Website + Mobile App</h3>
-  <p align="center">
-    <br />
-    <a href="https://github.com/Puskar-Roy/Task-Management-Web"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://alltaskss.vercel.app">Go Live</a>
-    ·
-    <a href="https://github.com/Puskar-Roy/Task-Management-Web/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Puskar-Roy/Task-Management-Web/issues">Request Feature</a>
-  </p>
-</div>
+## Available Scripts
 
-##### Note: *We have an Android app with the same UI.*
+In the project directory, you can run:
 
- ## All Features 🌟 
+### `npm start`
 
- ### 1. Redux Toolkit for Task State Management
- 
-#### All Tasks
- 
- ![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996619/2_xv3ljv.png)
- 
- - To change the status of a task to "Complete" and update its date to the date when it was completed.
- 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 2. Add Task
-  ### Add a new Task
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-   ![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996633/3_ock8xg.png)
+### `npm test`
 
-- We can add or remove Tasks.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    ### Filter Tasks
+### `npm run build`
 
-   ![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711998055/6_fiiti1.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
--  Allows users to easily filter tasks by date, status, and priority, providing a streamlined and efficient task management experience.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-### 3. Mobile App and Responsive Design
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-#### Mobile App
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996674/5_dndm7s.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Github Repo of Android App
-```bash
-https://github.com/Puskar-Roy/Task-Management-App
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Responsive Design
+## Learn More
 
-![attendance](https://res.cloudinary.com/dky3cpvtf/image/upload/v1711996651/4_bmgkfh.png)
-  
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Getting Started 🚀
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-### Prerequisites
-Before you begin contributing to this project, make sure you have the following set up:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- [Node.js](https://nodejs.org/): A JavaScript runtime.
-- [npm](https://www.npmjs.com/): The Node.js package manager.
+### Analyzing the Bundle Size
 
-### Run This ⌨️
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Puskar-Roy/Task-Management-Web
-   ```
-2. **Install Dependencies:**
-   ```bash
-    npm install
-   ```
-3. **Run This Project:**
-   ```bash
-   npm run dev
-   ```
+### Making a Progressive Web App
 
-   <p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-### Built With
-
-This section highlights the key frameworks and libraries that form the foundation of your project. Below are some notable examples:
-
-
-- **[![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)](https://www.typescriptlang.org/):** A superset of JavaScript that adds static types.
-- **[![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript):** The programming language of 
-- **[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/):** The database for modern applications.
-- **[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/):** Cloud platform for serverless deployment and hosting.
-- **[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/):** Pluggable linting utility for identifying and fixing code issues.
-- **[![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)](https://prettier.io/):** Opinionated code formatter to ensure consistent code styling the web.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-   
-## Contributing 🌟   
-### Making Contributions
-
-We welcome and appreciate contributions from the community ❤️! Here's how you can contribute:
-
-- **Open Issues:** Check for open issues or create a new one to start discussions.
-- **Fork the Repository:** Fork the project to your own GitHub account.
-- **Create Pull Request:** Make changes in your fork and submit a pull request.
-
-### Welcome Contributors!
-
-🚀 Thank you for considering contributing to this project! Your involvement makes this template even better. Feel free to explore the code, share your ideas, and make improvements ✌️.
-
-🌟 Don't hesitate to reach out if you have any questions or need assistance. Together, let's make this project amazing!🟩
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Puskar Roy🖋️
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
